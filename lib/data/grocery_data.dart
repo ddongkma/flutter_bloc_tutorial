@@ -1,0 +1,58 @@
+class GroceryData {
+   static List<Map<String, dynamic>> groceryProducts = [
+      {
+        'id': '1',
+        'name': 'Apples',
+        'category': 'Fruits',
+        'price': 1.99,
+        'quantity': 5,
+        'imageUrl': 'https://images.heb.com/is/image/HEBGrocery/001422652-1',
+        'description': 'Fresh and delicious apples',
+      },
+      {
+        'id': '2',
+        'name': 'Bread',
+        'category': 'Bakery',
+        'price': 2.49,
+        'quantity': 2,
+        'imageUrl': 'https://www.allrecipes.com/thmb/CjzJwg2pACUzGODdxJL1BJDRx9Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6788-amish-white-bread-DDMFS-4x3-6faa1e552bdb4f6eabdd7791e59b3c84.jpg',
+        'description': 'Soft and freshly baked bread',
+      },
+      {
+        'id': '3',
+        'name': 'Milk',
+        'category': 'Dairy',
+        'price': 1.79,
+        'quantity': 1,
+        'imageUrl': 'https://aten.edu.vn/wp-content/uploads/2023/07/hinh-anh-milk-la-danh-tu-dem-duoc-hay-khong-dem-duoc-3.jpg',
+        'description': 'Nutrient-rich cow\'s milk',
+      },
+      {
+        'id': '4',
+        'name': 'Eggs',
+        'category': 'Dairy',
+        'price': 2.99,
+        'quantity': 1,
+        'imageUrl': 'https://images-prod.healthline.com/hlcmsresource/images/AN_images/health-benefits-of-eggs-1296x728-feature.jpg',
+        'description': 'Farm-fresh eggs from free-range hens',
+      },
+      {
+        'id': '5',
+        'name': 'Chicken Breast',
+        'category': 'Meat',
+        'price': 6.99,
+        'quantity': 2,
+        'imageUrl':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkXNGUAIykwg9GCU6lD72DLnHv0wjtA8YyBA&usqp=CAU',
+      'description': 'Lean and tender chicken breast',
+      },
+      {
+        'id': '6',
+        'name': 'Pasta',
+        'category': 'Pantry',
+        'price': 1.29,
+        'quantity': 3,
+        'imageUrl': 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/05/Baked-Feta-Pasta-4_s4x3.jpg.rend.hgtvcom.616.493.suffix/1615916524567.jpeg',
+        'description': 'Versatile pasta for your favorite dishes',
+      },
+    ];
+}
